@@ -4,6 +4,7 @@ import Error from "../Pages/Error";
 import MainLayouts from "../components/Layout/MainLayouts";
 import Installation from "../Pages/Installation";
 import Apps from "../Pages/Apps";
+import NotFoundError from "../Pages/NotFoundError";
 
 
 
