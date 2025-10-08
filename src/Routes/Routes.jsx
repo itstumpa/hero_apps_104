@@ -1,9 +1,9 @@
 import { createBrowserRouter } from "react-router";
-import Products from "../Pages/Products";
 import Home from "../Pages/Home";
 import Error from "../Pages/Error";
 import MainLayouts from "../components/Layout/MainLayouts";
-import Wishlist from "../Pages/Wishlist";
+import Installation from "../Pages/Installation";
+import Apps from "../Pages/Apps";
 
 
 
@@ -18,12 +18,12 @@ const router = createBrowserRouter([
     element: <Home/>,
   },
   {
-    path: "/products",
-    element: <Products />,
+    path: "/apps",
+    element: <Apps />,
   },
   {
-    path: "/wishlist",
-    element: <Wishlist />,
+    path: "/installation",
+    element: <Installation />,
   },
     ],
   },
