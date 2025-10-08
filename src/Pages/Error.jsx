@@ -1,15 +1,31 @@
-import React from 'react';
 import { useRouteError } from 'react-router';
 import Navbar from '../components/Navbar/Navbar';
 import Footer from '../components/Footer/Footer';
 import Page404 from '../assets/error-404.png';
 import { Undo2 } from 'lucide-react';
 import { useNavigate } from 'react-router';
+import React, { useState, useEffect } from 'react';
+import "../components/LoadingSpinner/LoadingSpinner.css"; 
 
 const Error = () => {
   const navigate = useNavigate(); 
   const error = useRouteError();
 
+
+  const [loading, setLoading] = useState(true);
+
+  useEffect(() => {
+    const timer = setTimeout(() => setLoading(false), 1200); 
+    return () => clearTimeout(timer);
+  }, []);
+
+  if (loading) {
+    return (
+      <div className="loader-container">
+        <div className="loader"></div>
+      </div>
+    );
+  }
   return (
     <>
       <Navbar />

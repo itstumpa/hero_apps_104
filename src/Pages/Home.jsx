@@ -3,14 +3,16 @@ import axios from "axios";
 import GooglePlay from "../assets/GooglePlay.svg";
 import AppStore from "../assets/appStore.svg";
 import Hero from "../assets/hero.png";
-import { useNavigate } from "react-router";
 import { Download } from "lucide-react";
 import Star from "../assets/icon-ratings.png"
 
+import { useNavigate } from "react-router";
+import ProductsCard from "../components/TrendingApps/ProductsCard";
+
 const Home = () => {
   const [apps, setApps] = useState([]);
-  const visibleCount = 8; 
-   const navigate = useNavigate();
+  const visibleCount = 8;
+  const navigate = useNavigate();
 
   useEffect(() => {
     const fetchApps = async () => {
@@ -24,13 +26,14 @@ const Home = () => {
     fetchApps();
   }, []);
 
-   const handleSeeMore = () => {
-     navigate("/apps");
-   };
+  const handleSeeMore = () => {
+    navigate("/apps");
+  };
+
   return (
-    <>
+     <>
       {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center py-20 text-center">
+      <section className="flex flex-col items-center justify-center text-center">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight max-w-xl mx-auto">
           We Build{" "}
           <span className="font-extrabold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
@@ -46,7 +49,7 @@ const Home = () => {
           experiences that truly make an impact.
         </p>
 
-        {/* Buttons */}
+         {/* Buttons */}
         <div className="flex flex-wrap justify-center gap-4">
           <a
             href="https://play.google.com/store/games?hl=en"
@@ -58,7 +61,7 @@ const Home = () => {
             Play Store
           </a>
 
-          <a
+            <a
             href="https://www.apple.com/app-store/"
             target="_blank"
             rel="noreferrer"
@@ -68,14 +71,12 @@ const Home = () => {
             App Store
           </a>
         </div>
-
-        {/* Hero */}
+          {/* Hero */}
         <div className="pt-10 px-4">
           <img src={Hero} alt="Hero" />
         </div>
       </section>
-
-      {/* Stats Section */}
+ {/* Stats Section */}
       <div className="w-full h-[300px] bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white flex flex-col justify-center items-center">
         <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-6">
           Trusted by Millions, Built for You
@@ -96,45 +97,19 @@ const Home = () => {
         </div>
       </div>
 
-      {/* Trending Section */}
-      <section className="py-16 px-6 md:px-12 bg-gray-50 ">
-        <h2 className="text-4xl font-bold mb-3 text-center text-gray-800">
-          Trending Apps
-        </h2>
-        <p className="mb-8 text-center text-md">Explore All Trending Apps on the Market developed by us</p>
-<div className="max-w-[1600px] flex mx-auto justify-center">
-
-
-        <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 ">
-          {/* ------------------------------------------ */}
-          {apps.slice(0, visibleCount).map((app) => (
-            <div
-              key={app.id}
-              className="card bg-white shadow-md hover:shadow-lg hover:scale-105 transition ease-in-out rounded-xl overflow-hidden"
-            >
-              <figure className="p-3 rounded-md">
-                <img
-                  src={app.image}
-                  alt={app.title}
-                  className="rounded-md h-86 w-full object-cover"
-                />
-              </figure>
-              <div className="px-4 pb-4">
-                <h3 className="font-semibold text-lg mb-2">{app.title}</h3>
-                <div className="flex justify-between text-sm text-gray-600">
-                  <span className="flex text-center items-center gap-1 bg-gray-100 p-2 rounded-md text-green-400 font-semibold"><Download className="w-4"/>{app.downloads}</span>
-                  <span className="flex text-center items-center gap-1 bg-amber-100 p-2 rounded-md text-amber-400 font-semibold">
-                    <img src={Star} alt="" className="w-4"/>
-                    {app.ratingAvg}</span>
-                </div>
-              </div>
-            </div>
-          ))}
-        </div>
-        </div>
-
-        {/* ------------------- */}
-          <div className="flex items-center justify-center max-w-[1600px] mx-auto">
+    <section className="py-16 px-6 md:px-12 bg-gray-50">
+      <h2 className="text-4xl font-bold mb-3 text-center text-gray-800">
+        Trending Apps
+      </h2>
+<p className="mb-8 text-center text-md">Explore All Trending Apps on the Market developed by us</p>
+      <div className="max-w-[1600px] flex mx-auto justify-center">
+      <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 max-w-[1600ps] mx-auto">
+        {apps.slice(0, visibleCount).map((app) => (
+          <ProductsCard key={app.id} app={app} />
+        ))}
+      </div>
+</div>
+      <div className="flex items-center justify-center max-w-[1600px] mx-auto">
           <button
             onClick={handleSeeMore}
             className="mt-8 px-8 py-3 rounded-sm text-white font-semibold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] hover:opacity-90 transition"
@@ -142,8 +117,9 @@ const Home = () => {
             Show All
           </button>
           </div>
-      </section>
-    </>
+      
+    </section>
+  </>
   );
 };
 

@@ -12,7 +12,7 @@ const NotFoundError = () => {
 
   return (
     <>
-      <Navbar />
+      {/* <Navbar /> */}
 
       <div className="flex flex-col items-center justify-center py-20 px-4 text-center min-h-screen">
         <img src={NotFoundPage} alt="NotFoundPage" className="mb-4 w-64 md:w-80 lg:w-96" />
@@ -38,7 +38,7 @@ const NotFoundError = () => {
         </section>
       </div>
 
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
