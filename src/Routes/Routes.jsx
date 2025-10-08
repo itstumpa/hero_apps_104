@@ -5,6 +5,7 @@ import MainLayouts from "../components/Layout/MainLayouts";
 import Installation from "../Pages/Installation";
 import Apps from "../Pages/Apps";
 import NotFoundError from "../Pages/NotFoundError";
+import AppDetails from "../components/AppDetails/AppDetails";
 
 
 
@@ -31,6 +32,10 @@ const router = createBrowserRouter([
     element: <NotFoundError />,
     errorElement: <NotFoundError/>,
 
+  },
+  {
+    path: "/apps/:id",
+    element: <AppDetails />,
   },
     ],
   },

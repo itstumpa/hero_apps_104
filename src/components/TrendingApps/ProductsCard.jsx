@@ -1,9 +1,20 @@
 import React from "react";
 import { Download } from "lucide-react";
 import Star from "../../assets/icon-ratings.png";
+import { useNavigate } from "react-router";
+
 
 const ProductsCard = ({ app }) => {
+   const navigate = useNavigate();
+
+     const handleClick = () => {
+    navigate(`/apps/${app.id}`); // Go to app details page
+  };
   return (
+    <div
+      onClick={handleClick}
+      className="card bg-white shadow-md hover:shadow-lg hover:scale-105 transition ease-in-out rounded-xl overflow-hidden cursor-pointer"
+    >
     <div className="card bg-white shadow-md hover:shadow-lg hover:scale-105 transition ease-in-out rounded-xl overflow-hidden">
       <figure className="p-3 rounded-md">
         <img
@@ -25,6 +36,7 @@ const ProductsCard = ({ app }) => {
           </span>
         </div>
       </div>
+    </div>
     </div>
   );
 };

@@ -8,7 +8,7 @@ import Star from "../assets/icon-ratings.png"
 
 import { useNavigate } from "react-router";
 import ProductsCard from "../components/TrendingApps/ProductsCard";
-
+// import AppDetails from "../components/AppDetails/AppDetails"; 
 const Home = () => {
   const [apps, setApps] = useState([]);
   const visibleCount = 8;
