@@ -26,6 +26,12 @@ const router = createBrowserRouter([
     path: "/installation",
     element: <Installation />,
   },
+  {
+    path: "/not",
+    element: <NotFoundError />,
+    errorElement: <NotFoundError/>,
+
+  },
     ],
   },
   

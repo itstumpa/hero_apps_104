@@ -4,6 +4,7 @@ import { NavLink } from 'react-router'; // make sure it's react-router-dom
 
 const Footer = () => {
   return (
+
     <footer className="w-full bg-[#001931] text-white">
       
       {/* Main footer content */}
@@ -16,6 +17,13 @@ const Footer = () => {
             HERO.IO
           </span>
         </NavLink>
+
+
+        <nav className="grid grid-flow-col gap-4">
+    <a className="link link-hover">About us</a>
+    <a className="link link-hover">Contact</a>
+    <a className="link link-hover">Privacy Policy</a>
+  </nav>
 
         {/* Social icons */}
         <div className="flex gap-4">

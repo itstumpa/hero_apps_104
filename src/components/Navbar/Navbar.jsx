@@ -61,7 +61,7 @@ const Navbar = () => {
 {/* button  */}
         <div className="navbar-end">
           <a
-            href="https://github.com/"
+            href="https://github.com/itstumpa"
             target="_blank"
             rel="noreferrer"
             className="btn font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white text-[17px] flex items-center gap-2"
