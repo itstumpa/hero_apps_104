@@ -5,7 +5,7 @@
     "title": "PhotoBlend: Pro Photo Editor",
     "companyName": "PixelWave Studios",
     "description": "AI-powered photo editor with layer blending and artistic filters for professional results.",
-    "size": 52,
+    "size": "52 MB",
     "reviews": 1200,
     "ratingAvg": 4.6,
     "downloads": "2.5M"
@@ -16,7 +16,7 @@
     "title": "MindFocus: Meditation & Productivity",
     "companyName": "ZenWave Labs",
     "description": "A productivity and meditation app designed to increase focus and reduce digital fatigue.",
-    "size": 38,
+    "size": "38 MB",
     "reviews": 850,
     "ratingAvg": 4.3,
     "downloads": "1.8M"
@@ -27,7 +27,7 @@
     "title": "FitMate: Fitness Tracker & Planner",
     "companyName": "HealthHive",
     "description": "Track your workouts, meals, and progress using smart AI insights and daily fitness goals.",
-    "size": 74,
+    "size": "74 MB",
     "reviews": 5600,
     "ratingAvg": 4.8,
     "downloads": "7.2M"
@@ -38,7 +38,7 @@
     "title": "Travelio: Trip Planner & Guide",
     "companyName": "ExploreX",
     "description": "Discover destinations, book hotels, and find hidden travel gems worldwide with ease.",
-    "size": 80,
+    "size": "80 MB",
     "reviews": 4200,
     "ratingAvg": 4.4,
     "downloads": "5.4M"
@@ -49,7 +49,7 @@
     "title": "NoteCraft: Smart Notes Organizer",
     "companyName": "SmartDesk Co.",
     "description": "A creative note-taking and idea management app for thinkers, writers, and teams.",
-    "size": 45,
+    "size": "45 MB",
     "reviews": 1900,
     "ratingAvg": 4.7,
     "downloads": "3.8M"
@@ -60,7 +60,7 @@
     "title": "Learnify: Interactive Learning App",
     "companyName": "EduPro Systems",
     "description": "An interactive learning app offering bite-sized lessons, quizzes, and certifications.",
-    "size": 62,
+    "size": "62 MB",
     "reviews": 3600,
     "ratingAvg": 4.5,
     "downloads": "6.1M"
@@ -71,7 +71,7 @@
     "title": "CookBook+: Recipe & Meal Planner",
     "companyName": "HomeChef Studio",
     "description": "Thousands of recipes with AI meal planning, grocery lists, and calorie tracking.",
-    "size": 67,
+    "size": "67 MB",
     "reviews": 4600,
     "ratingAvg": 4.6,
     "downloads": "5.2M"
@@ -82,7 +82,7 @@
     "title": "GameBoost: Performance Optimizer",
     "companyName": "NextPlay Studios",
     "description": "Optimize your gaming performance and reduce lag with one-tap optimization tools.",
-    "size": 58,
+    "size": "58 MB",
     "reviews": 8900,
     "ratingAvg": 4.2,
     "downloads": "8.9M"
@@ -93,7 +93,7 @@
     "title": "ShopEase: Smart Shopping App",
     "companyName": "ClickCart Ltd.",
     "description": "AI price comparison, wishlist sync, and cashback offers for smart shopping.",
-    "size": 73,
+    "size": "73 MB",
     "reviews": 2300,
     "ratingAvg": 4.4,
     "downloads": "4.5M"
@@ -104,9 +104,9 @@
     "title": "Budgetly: Expense & Savings Tracker",
     "companyName": "FinEdge Apps",
     "description": "Manage expenses, set savings goals, and analyze your spending with AI insights.",
-    "size": 48,
+    "size": "48 MB",
     "reviews": 3400,
-    "ratingAvg": 4.5,
+    "ratingAvg": 5,
     "downloads": "3.7M"
   },
   {
@@ -115,7 +115,7 @@
     "title": "PetPal: Pet Care & Tracker",
     "companyName": "HappyTail Labs",
     "description": "Find pet care tips, vet consultations, and local pet services all in one app.",
-    "size": 59,
+    "size": "59 MB",
     "reviews": 2200,
     "ratingAvg": 4.6,
     "downloads": "2.6M"
@@ -126,9 +126,9 @@
     "title": "NewsFlash: Real-Time News App",
     "companyName": "StreamWire",
     "description": "Real-time breaking news app with AI summaries and personalized topic feeds.",
-    "size": 42,
+    "size": "42 MB",
     "reviews": 3100,
-    "ratingAvg": 4.2,
+    "ratingAvg": 5,
     "downloads": "4.2M"
   },
   {
@@ -137,7 +137,7 @@
     "title": "DailyJournal: Mood & Habit Tracker",
     "companyName": "MindFlow Apps",
     "description": "Track your mood, thoughts, and habits in a secure, minimalist daily journal.",
-    "size": 37,
+    "size": "37 MB",
     "reviews": 1800,
     "ratingAvg": 4.8,
     "downloads": "3.1M"
@@ -148,7 +148,7 @@
     "title": "StreamBox: Movies & Series",
     "companyName": "CineVerse",
     "description": "Enjoy your favorite movies and series with adaptive streaming and offline mode.",
-    "size": 95,
+    "size": "95 MB",
     "reviews": 7100,
     "ratingAvg": 4.5,
     "downloads": "10.2M"
@@ -159,9 +159,9 @@
     "title": "MusicVibe: Streaming & Playlist",
     "companyName": "SoundPulse",
     "description": "Discover trending tracks, create playlists, and stream your favorite artists anywhere.",
-    "size": 85,
+    "size": "85 MB",
     "reviews": 8300,
-    "ratingAvg": 4.7,
+    "ratingAvg": 5,
     "downloads": "9.5M"
   },
   {
@@ -170,9 +170,9 @@
     "title": "Weatherly: Live Weather & Alerts",
     "companyName": "SkyWatch Co.",
     "description": "Accurate live forecasts, storm alerts, and radar maps in a clean modern interface.",
-    "size": 50,
+    "size": "50 MB",
     "reviews": 4100,
-    "ratingAvg": 4.4,
+    "ratingAvg": 5,
     "downloads": "4.9M"
   }
 ]

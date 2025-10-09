@@ -64,7 +64,7 @@ const Navbar = () => {
             href="https://github.com/itstumpa"
             target="_blank"
             rel="noreferrer"
-            className="btn font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white text-[17px] flex items-center gap-2"
+            className="btn hover:scale-105 transition hover:ease-in-out font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white text-[17px] flex items-center gap-2"
           >
             <Github />
             Contribute

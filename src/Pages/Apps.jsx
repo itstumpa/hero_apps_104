@@ -27,7 +27,7 @@ const Apps = () => {
     setSearch(value);
     setLoading(true);
 
-    // simulate loading for 300ms
+    
     setTimeout(() => {
       setLoading(false);
     }, 300);
@@ -39,7 +39,7 @@ const Apps = () => {
     : apps;
 
   return (
-    <div className="py-16 px-6 md:px-12 bg-gray-50">
+    <div className="py-22 px-6 md:px-12 bg-gray-50">
       <h2 className="text-4xl font-bold mb-3 text-center text-gray-800">
         Our All Applications
       </h2>
@@ -47,7 +47,7 @@ const Apps = () => {
         Explore All Apps on the Market developed by us. We code for Millions
       </p>
 
-      <div className="px-6 md:px-12 py-16">
+      <div className="px-6 md:px-12">
         <div className="flex flex-col md:flex-row justify-between items-center mb-6 gap-4">
           <h1 className="text-3xl font-semibold">
             All Apps{" "}
@@ -65,7 +65,7 @@ const Apps = () => {
           </div>
         </div>
 
-        {/* Loading animation */}
+        {/* Loading */}
         {loading ? (
           <div className="loader-container flex justify-center items-center h-40">
             <div className="loader border-4 border-t-4 border-gray-200 rounded-full w-12 h-12 animate-spin"></div>
@@ -79,6 +79,9 @@ const Apps = () => {
         ) : (
           <NotFoundError />
         )}
+
+
+        
       </div>
 
     </div>

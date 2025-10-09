@@ -33,7 +33,7 @@ const Home = () => {
   return (
      <>
       {/* Hero Section */}
-      <section className="flex flex-col items-center justify-center text-center">
+      <section className="flex flex-col items-center justify-center text-center mt-20">
         <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold leading-tight max-w-xl mx-auto">
           We Build{" "}
           <span className="font-extrabold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
@@ -50,12 +50,12 @@ const Home = () => {
         </p>
 
          {/* Buttons */}
-        <div className="flex flex-wrap justify-center gap-4">
+        <div className="flex flex-wrap justify-center gap-4 ">
           <a
             href="https://play.google.com/store/games?hl=en"
             target="_blank"
             rel="noreferrer"
-            className="btn font-bold btn-outline border-gray-300 text-black hover:bg-[#632EE3] hover:text-white text-[17px] flex items-center gap-2"
+            className="btn hover:scale-105 transition hover:ease-in-out font-bold btn-outline border-gray-300 text-black hover:bg-[#632EE3] hover:text-white text-[17px] flex items-center gap-2"
           >
             <img src={GooglePlay} alt="Google Play" className="w-6 h-6" />
             Play Store
@@ -65,7 +65,7 @@ const Home = () => {
             href="https://www.apple.com/app-store/"
             target="_blank"
             rel="noreferrer"
-            className="btn font-bold btn-outline border-gray-300 text-black hover:bg-[#632EE3] hover:text-white text-[17px] flex items-center gap-2"
+            className="btn hover:scale-105 transition hover:ease-in-out font-bold btn-outline border-gray-300 text-black hover:bg-[#632EE3] hover:text-white text-[17px] flex items-center gap-2"
           >
             <img src={AppStore} alt="App Store" className="w-6 h-6" />
             App Store
@@ -77,22 +77,27 @@ const Home = () => {
         </div>
       </section>
  {/* Stats Section */}
-      <div className="w-full h-[300px] bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white flex flex-col justify-center items-center">
-        <h1 className="text-2xl md:text-3xl lg:text-4xl font-semibold mb-6">
+      <div className="w-full h-[350px] bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white flex flex-col justify-center items-center">
+        <h1 className="text-2xl md:text-3xl lg:text-5xl font-bold mb-10">
           Trusted by Millions, Built for You
         </h1>
-        <div className="flex flex-wrap justify-center gap-10 text-center">
-          <div>
-            <div className="text-3xl font-bold">29.6M</div>
-            <p>Total Downloads</p>
+        <div className="flex flex-wrap justify-center gap-10 text-center items-center">
+          <div className="space-y-5">
+            <p className="text-[#c3c3c3] text-sm">Total Downloads</p>
+            <div className="text-6xl font-bold ">29.6M</div>
+                        <p className="text-[#c3c3c3] text-sm">21% more than last month</p>
+
           </div>
-          <div>
-            <div className="text-3xl font-bold">906K</div>
-            <p>Total Reviews</p>
+          <div className="space-y-5">
+            <p className="text-[#c3c3c3] text-sm">Total Reviews</p>
+            <div className="text-6xl font-bold">906K</div>
+                        <p className="text-[#c3c3c3] text-sm">21% more than last month</p>
+
           </div>
-          <div>
-            <div className="text-3xl font-bold">132+</div>
-            <p>Active Apps</p>
+          <div className="space-y-5">
+            <p className="text-[#c3c3c3] text-sm">Active Apps</p>
+            <div className="text-6xl font-bold">132+</div>
+            <p className="text-[#c3c3c3] text-sm">31 more will Launch</p>
           </div>
         </div>
       </div>
