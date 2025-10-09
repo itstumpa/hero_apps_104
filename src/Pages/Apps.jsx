@@ -43,7 +43,7 @@ const Apps = () => {
     : apps;
 
   return (
-    <div className="py-22 px-6 md:px-12 relative">
+    <div className="py-10 md:py-22 px-6 md:px-12 relative">
       
       {loading && <LoadingSpinner />}
 
@@ -73,7 +73,7 @@ const Apps = () => {
         </div>
 
         {!loading && filteredApps.length > 0 ? (
-          <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+         <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 sm:gap-6">
             {filteredApps.map((app) => (
               <ProductsCard key={app.id} app={app} />
             ))}

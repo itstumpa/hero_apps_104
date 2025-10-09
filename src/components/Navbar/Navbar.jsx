@@ -1,9 +1,11 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router";
 import { Github } from "lucide-react";
 import logo from '../../assets/logo.png';
 
 const Navbar = () => {
+  const [menuOpen, setMenuOpen] = useState(false);
+
   const linkStyle = ({ isActive }) =>
     isActive
       ? "font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent"
@@ -11,62 +13,85 @@ const Navbar = () => {
 
   return (
     <div className="w-full bg-white shadow-sm py-3">
-      <div className="max-w-[1600px] mx-auto w-full flex items-center justify-between px-4">
+      <div className="max-w-[1600px] mx-auto w-full flex items-center justify-between px-4 sm:px-6 md:px-12">
         
         {/* Navbar */}
         <div className="navbar-start flex items-center gap-4">
 
-          {/* dropdown */}
-          <div className="dropdown lg:hidden">
-            <div tabIndex={0} role="button" className="btn btn-ghost">
+          <div className="lg:hidden relative">
+            <button
+              onClick={() => setMenuOpen(!menuOpen)}
+              className="btn btn-ghost p-2"
+              aria-label="Toggle Menu"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
-                className="h-5 w-5"
+                className="h-6 w-6 sm:h-7 sm:w-7"
                 fill="none"
                 viewBox="0 0 24 24"
                 stroke="currentColor"
               >
-                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h8m-8 6h16" />
+                <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M4 6h16M4 12h16M4 18h16" />
               </svg>
-            </div>
-            <ul
-              tabIndex={0}
-              className=" menu-sm dropdown-content rounded-box z-10 mt-3 w-52 p-2 shadow"
-            >
-              <li><NavLink to="/" className={linkStyle}>Home</NavLink></li>
-              <li><NavLink to="/apps" className={linkStyle}>Apps</NavLink></li>
-              <li><NavLink to="/installation" className={linkStyle}>Installation</NavLink></li>
-            </ul>
+            </button>
+
+            {menuOpen && (
+              <ul className="absolute left-0 top-full mt-2 w-52 bg-white rounded-md shadow-lg z-20 flex flex-col gap-2 p-3">
+                <li>
+                  <NavLink
+                    to="/"
+                    className={linkStyle}
+                    onClick={() => setMenuOpen(false)}
+                  >
+                    Home
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/apps"
+                    className={linkStyle}
+                    onClick={() => setMenuOpen(false)}
+                  >
+                    Apps
+                  </NavLink>
+                </li>
+                <li>
+                  <NavLink
+                    to="/installation"
+                    className={linkStyle}
+                    onClick={() => setMenuOpen(false)}
+                  >
+                    Installation
+                  </NavLink>
+                </li>
+              </ul>
+            )}
           </div>
 
-          {/* Logo */}
           <NavLink to="/" className="flex items-center gap-2">
-            <img src={logo} alt="Hero Logo" className="w-10 h-10" />
-            <span className="text-2xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+            <img src={logo} alt="Hero Logo" className="w-8 h-8 sm:w-10 sm:h-10" />
+            <span className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
               HERO.IO
             </span>
           </NavLink>
         </div>
 
-        {/*Center */}
         <div className="navbar-center hidden lg:flex">
-          <ul className="flex px-1 text-[17px] gap-8">
+          <ul className="flex px-1 text-[15px] sm:text-[16px] md:text-[17px] gap-6 sm:gap-8">
             <li><NavLink to="/" className={linkStyle}>Home</NavLink></li>
             <li><NavLink to="/apps" className={linkStyle}>Apps</NavLink></li>
             <li><NavLink to="/installation" className={linkStyle}>Installation</NavLink></li>
           </ul>
         </div>
 
-
-{/* button  */}
-        <div className="navbar-end">
+        <div className="navbar-end hidden md:flex">
           <a
             href="https://github.com/itstumpa"
             target="_blank"
             rel="noreferrer"
-            className="btn hover:scale-105 transition hover:ease-in-out font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white text-[17px] flex items-center gap-2"
+            className="btn hover:scale-105 transition hover:ease-in-out font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white text-[15px] sm:text-[16px] md:text-[17px] flex items-center gap-2"
           >
-            <Github />
+            <Github className="w-4 h-4 sm:w-5 sm:h-5" />
             Contribute
           </a>
         </div>

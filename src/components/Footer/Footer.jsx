@@ -4,26 +4,24 @@ import { NavLink } from 'react-router'; // make sure it's react-router-dom
 
 const Footer = () => {
   return (
-
     <footer className="w-full bg-[#001931] text-white">
       
       {/* Main footer content */}
-      <div className="max-w-[1600px] mx-auto px-4 py-6 flex flex-col md:flex-row items-center justify-between">
+      <div className="max-w-[1600px] mx-auto px-4 sm:px-6 md:px-12 py-6 flex flex-col md:flex-row items-center justify-between">
         
         {/* Logo */}
         <NavLink to="/" className="flex items-center gap-2 mb-4 md:mb-0">
-          <img src={logo} alt="Hero Logo" className="w-10 h-10" />
-          <span className="text-lg font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
+          <img src={logo} alt="Hero Logo" className="w-10 h-10 sm:w-12 sm:h-12" />
+          <span className="text-lg sm:text-xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
             HERO.IO
           </span>
         </NavLink>
 
-
-        <nav className="grid grid-flow-col gap-4">
-    <a className="link link-hover">About us</a>
-    <a className="link link-hover">Contact</a>
-    <a className="link link-hover">Privacy Policy</a>
-  </nav>
+        <nav className="grid grid-flow-col gap-4 mb-4 md:mb-0">
+          <a className="link link-hover">About us</a>
+          <a className="link link-hover">Contact</a>
+          <a className="link link-hover">Privacy Policy</a>
+        </nav>
 
         {/* Social icons */}
         <div className="flex gap-4">
