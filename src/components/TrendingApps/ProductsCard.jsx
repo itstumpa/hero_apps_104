@@ -8,7 +8,7 @@ const ProductsCard = ({ app }) => {
    const navigate = useNavigate();
 
      const handleClick = () => {
-    navigate(`/apps/${app.id}`); // Go to app details page
+    navigate(`/apps/${app.id}`); 
   };
   return (
     <div

@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router";
 import axios from "axios";
-import "../../components/LoadingSpinner/LoadingSpinner.css";
+import "../../components/LoadingSpinner/LoadingSpinner.jsx";
 import Star from "../../assets/icon-ratings.png";
 import Like from "../../assets/icon-review.png";
 import Download from "../../assets/icon-downloads.png";
@@ -16,6 +16,7 @@ import {
   CartesianGrid,
   Tooltip,
 } from "recharts";
+import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner.jsx";
 
 const AppDetails = () => {
   const { id } = useParams();
@@ -42,12 +43,8 @@ const AppDetails = () => {
     }
   }, [app]);
 
-  if (!app) {
-    return (
-      <div className="loader">
-        <div className="loader-container"></div>
-      </div>
-    );
+   if (!app) {
+    return <LoadingSpinner />;
   }
 
   const ratingAvg = app.ratingAvg || 0;

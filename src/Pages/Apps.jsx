@@ -1,14 +1,14 @@
+
 import React, { useEffect, useState } from "react";
 import axios from "axios";
 import ProductsCard from "../components/TrendingApps/ProductsCard";
 import NotFoundError from "../Pages/NotFoundError.jsx";
-import "../components/LoadingSpinner/LoadingSpinner.css"; 
-
+import LoadingSpinner from "../components/LoadingSpinner/LoadingSpinner.jsx";
 
 const Apps = () => {
   const [apps, setApps] = useState([]);
   const [search, setSearch] = useState("");
-  const [loading, setLoading] = useState(false);
+  const [loading, setLoading] = useState(true); 
 
   useEffect(() => {
     const fetchApps = async () => {
@@ -17,6 +17,11 @@ const Apps = () => {
         setApps(response.data);
       } catch (error) {
         console.error("Error fetching app data:", error);
+      } finally {
+
+        setTimeout(() => {
+          setLoading(false);
+        }, 200);
       }
     };
     fetchApps();
@@ -25,12 +30,11 @@ const Apps = () => {
   const handleSearchChange = (e) => {
     const value = e.target.value;
     setSearch(value);
-    setLoading(true);
+    setLoading(true); 
 
-    
     setTimeout(() => {
       setLoading(false);
-    }, 300);
+    }, 100); 
   };
 
   const term = search.trim().toLowerCase();
@@ -39,7 +43,10 @@ const Apps = () => {
     : apps;
 
   return (
-    <div className="py-22 px-6 md:px-12 bg-gray-50">
+    <div className="py-22 px-6 md:px-12 relative">
+      
+      {loading && <LoadingSpinner />}
+
       <h2 className="text-4xl font-bold mb-3 text-center text-gray-800">
         Our All Applications
       </h2>
@@ -65,25 +72,16 @@ const Apps = () => {
           </div>
         </div>
 
-        {/* Loading */}
-        {loading ? (
-          <div className="loader-container flex justify-center items-center h-40">
-            <div className="loader border-4 border-t-4 border-gray-200 rounded-full w-12 h-12 animate-spin"></div>
-          </div>
-        ) : filteredApps.length > 0 ? (
+        {!loading && filteredApps.length > 0 ? (
           <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
             {filteredApps.map((app) => (
               <ProductsCard key={app.id} app={app} />
             ))}
           </div>
         ) : (
-          <NotFoundError />
+          !loading && <NotFoundError />
         )}
-
-
-        
       </div>
-
     </div>
   );
 };
