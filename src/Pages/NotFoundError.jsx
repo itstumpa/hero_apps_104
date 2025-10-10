@@ -9,7 +9,7 @@ const NotFoundError = () => {
   const error = useRouteError();
 
   return (
-    <div className="flex flex-col items-center justify-center py-20 px-4 text-center min-h-screen">
+    <div className="flex flex-col items-center justify-center py-20 px-4 md:px-8 lg:px-12 text-center min-h-screen">
       <img src={NotFoundPage} alt="NotFoundPage" className="mb-4 w-64 md:w-80 lg:w-96" />
 
       <section className="flex flex-col items-center justify-center py-4 px-4 text-center">

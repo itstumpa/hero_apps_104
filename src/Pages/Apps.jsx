@@ -43,7 +43,7 @@ const Apps = () => {
     : apps;
 
   return (
-    <div className="py-10 md:py-22 px-6 md:px-12 relative">
+    <div className="py-10 md:py-22 px-4 md:px-8 lg:px-12 relative mx-auto max-w-[1600px]">
       
       {loading && <LoadingSpinner />}
 

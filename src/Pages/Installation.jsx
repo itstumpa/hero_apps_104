@@ -88,7 +88,7 @@ const Installation = () => {
   if (loading) return <LoadingSpinner />;
 
   return (
-    <div className="py-10 md:py-22 px-6 md:px-12 max-w-[1600px] mx-auto">
+    <div className="py-10 md:py-22 px-4 md:px-8 lg:px-12 max-w-[1600px] mx-auto">
       <h2 className="text-4xl font-bold mb-3 text-center text-gray-800">
         Your Installed Apps
       </h2>
@@ -111,12 +111,12 @@ const Installation = () => {
           </select>
         </div>
 
-        <div className="grid grid-cols-1  gap-4">
+        <div className="grid grid-cols-1  gap-4 ">
           {installedApps.length > 0 ? (
             installedApps.map((app) => (
               <div key={app.id} className="p-4 rounded shadow bg-white">
                 <div className="flex flex-col sm:flex-row justify-between items-center gap-4">
-                  <div className="flex gap-4 items-center">
+                  <div className="flex gap-4">
                     <img
                       src={app.image}
                       className="w-20 sm:w-24 md:w-28 object-cover rounded"
@@ -138,15 +138,17 @@ const Installation = () => {
                       </div>
                     </div>
                   </div>
+{/* <div className="flex justify-center items-center"> */}
 
                   <button
                     onClick={() => uninstallApp(app.id)}
-                    className="mt-3 bg-green-600 hover:bg-green-700 text-white px-4 py-1 rounded"
+                    className="bg-green-600 hover:bg-green-700 text-white px-4 py-1 rounded "
                   >
                     Uninstall
                   </button>
+</div>
                 </div>
-              </div>
+              // </div>
             ))
           ) : (
             <p className="text-gray-500 text-center col-span-full">

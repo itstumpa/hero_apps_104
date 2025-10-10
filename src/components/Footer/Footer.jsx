@@ -7,7 +7,7 @@ const Footer = () => {
     <footer className="w-full bg-[#001931] text-white">
       
       {/* Main footer content */}
-      <div className="max-w-[1600px] mx-auto px-4 sm:px-6 md:px-12 py-6 flex flex-col md:flex-row items-center justify-between">
+      <div className="max-w-[1600px] mx-auto px-4 md:px-8 lg:px-12 py-6 flex flex-col md:flex-row items-center justify-between">
         
         {/* Logo */}
         <NavLink to="/" className="flex items-center gap-2 mb-4 md:mb-0">

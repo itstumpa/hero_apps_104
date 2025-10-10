@@ -108,7 +108,7 @@ const Home = () => {
       </div>
 
       {/* Trending Apps */}
-      <section className="py-16 px-4 sm:px-6 md:px-12 bg-gray-50">
+      <section className="py-16 px-4 md:px-8 lg:px-12 bg-gray-50">
         <h2 className="text-3xl sm:text-4xl font-bold mb-3 text-center text-gray-800">
           Trending Apps
         </h2>

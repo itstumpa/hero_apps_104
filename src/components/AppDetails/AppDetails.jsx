@@ -116,7 +116,7 @@ const AppDetails = () => {
             </div>
           </div>
 
-          <div className="mt-10 p-6 rounded-lg shadow-sm">
+          <div className="mt-10 p-4 rounded-lg shadow-sm">
             <h3 className="font-bold mb-4 text-lg sm:text-xl">Ratings</h3>
             <div className="w-full overflow-x-auto">
               <ResponsiveContainer width="100%" height={300}>
