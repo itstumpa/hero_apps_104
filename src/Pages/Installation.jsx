@@ -32,7 +32,7 @@ const Installation = () => {
       .filter(Boolean);
 
     setInstalledApps(installed);
-    setOriginalInstalledApps(installed); // Save original order
+    setOriginalInstalledApps(installed); 
   }, [allApps]);
 
   const parseDownloads = (str) => {
@@ -138,7 +138,6 @@ const Installation = () => {
                       </div>
                     </div>
                   </div>
-{/* <div className="flex justify-center items-center"> */}
 
                   <button
                     onClick={() => uninstallApp(app.id)}
@@ -148,7 +147,7 @@ const Installation = () => {
                   </button>
 </div>
                 </div>
-              // </div>
+             
             ))
           ) : (
             <p className="text-gray-500 text-center col-span-full">

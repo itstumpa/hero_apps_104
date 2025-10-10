@@ -15,7 +15,7 @@ const Navbar = () => {
     <div className="w-full bg-white shadow-sm py-3">
       <div className="max-w-[1600px] mx-auto w-full flex items-center justify-between px-4 md:px-8 lg:px-12">
         
-        {/* Navbar */}
+        
         <div className="navbar-start flex items-center gap-4">
 
           <div className="lg:hidden relative">

@@ -1,12 +1,12 @@
 import React from 'react';
 import logo from '../../assets/logo.png';
-import { NavLink } from 'react-router'; // make sure it's react-router-dom
+import { NavLink } from 'react-router'; 
 
 const Footer = () => {
   return (
     <footer className="w-full bg-[#001931] text-white">
       
-      {/* Main footer content */}
+   
       <div className="max-w-[1600px] mx-auto px-4 md:px-8 lg:px-12 py-6 flex flex-col md:flex-row items-center justify-between">
         
         {/* Logo */}
@@ -43,7 +43,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* Copyright */}
+    
       <div className="w-full bg-[#001931] border-t border-gray-600/50 text-center py-4">
         <p>Copyright © {new Date().getFullYear()} - All rights reserved by HERO.IO</p>
       </div>

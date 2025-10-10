@@ -50,7 +50,7 @@ const AppDetails = () => {
   const ratingAvg = app.ratingAvg || 0;
 
   const data = [
-    { name: "5 star", value: ratingAvg >= 5 ? 8000 : 12000 },
+    { name: "5 star", value: ratingAvg >= 5 ? 12000 : 8000 },
     { name: "4 star", value: ratingAvg >= 4 ? 7000 : 5000 },
     { name: "3 star", value: ratingAvg >= 3 ? 4000 : 2000 },
     { name: "2 star", value: ratingAvg >= 2 ? 2500 : 1000 },
