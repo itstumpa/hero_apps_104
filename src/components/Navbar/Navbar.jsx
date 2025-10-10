@@ -84,14 +84,14 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="navbar-end hidden md:flex">
+        <div className="">
           <a
             href="https://github.com/itstumpa"
             target="_blank"
             rel="noreferrer"
-            className="btn hover:scale-105 transition hover:ease-in-out font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white text-[15px] sm:text-[16px] md:text-[17px] flex items-center gap-2"
+            className=" hover:scale-105 transition hover:ease-in-out font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] text-white text-[12px] sm:text-[14px] md:text-[17px] flex items-center gap-1 md:gap-2 rounded-sm md:px-4 px-2 py-2"
           >
-            <Github className="w-4 h-4 sm:w-5 sm:h-5" />
+            <Github className="w-4 h-4 md:w-5 sm:h-5" />
             Contribute
           </a>
         </div>

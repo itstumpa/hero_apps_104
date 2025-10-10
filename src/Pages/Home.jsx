@@ -97,7 +97,7 @@ const Home = () => {
           <div className="space-y-2 sm:space-y-3">
             <p className="text-[#c3c3c3] text-xs sm:text-sm">Total Reviews</p>
             <div className="text-4xl sm:text-5xl md:text-6xl font-bold">906K</div>
-            <p className="text-[#c3c3c3] text-xs sm:text-sm">21% more than last month</p>
+            <p className="text-[#c3c3c3] text-xs sm:text-sm">46% more than last month</p>
           </div>
           <div className="space-y-2 sm:space-y-3">
             <p className="text-[#c3c3c3] text-xs sm:text-sm">Active Apps</p>
