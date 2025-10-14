@@ -48,7 +48,7 @@ const Home = () => {
         </h1>
 
         <p className="py-6 max-w-3xl text-gray-600 text-sm sm:text-base md:text-lg mx-auto">
-          At <span className="font-semibold text-[#632EE3]">HERO.IO</span>, we
+          At <span className="font-semibold text-[#632EE3]">PURPLE</span>, we
           craft innovative apps designed to make everyday life simpler, smarter,
           and more exciting. Our goal is to turn your ideas into digital
           experiences that truly make an impact.
@@ -118,7 +118,7 @@ const Home = () => {
         <div className="max-w-[1600px] mx-auto flex justify-center">
           <div className="grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6 w-full">
             {apps.slice(0, visibleCount).map((app) => (
-              <ProductsCard key={app.id} app={app} />
+              <ProductsCard  key={app.id} app={app} />
             ))}
           </div>
         </div>

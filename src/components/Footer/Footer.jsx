@@ -13,7 +13,7 @@ const Footer = () => {
         <NavLink to="/" className="flex items-center gap-2 mb-4 md:mb-0">
           <img src={logo} alt="Hero Logo" className="w-10 h-10 sm:w-12 sm:h-12" />
           <span className="text-lg sm:text-xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
-            HERO.IO
+            PURPLE
           </span>
         </NavLink>
 
@@ -48,7 +48,7 @@ const Footer = () => {
 
     
       <div className="w-full bg-[#001931] border-t border-gray-600/50 text-center py-4">
-        <p>Copyright © {new Date().getFullYear()} - All rights reserved by HERO.IO</p>
+        <p>Copyright © {new Date().getFullYear()} - All rights reserved by PURPLE</p>
       </div>
     </footer>
   );

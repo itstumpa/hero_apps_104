@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "image": "https://i.pinimg.com/736x/18/bf/47/18bf47c52d2bf34196a0df960fc07eea.jpg",
     "title": "PhotoBlend: Pro Photo Editor",
     "companyName": "PixelWave Studios",
     "description": "PhotoBlend is a professional-grade photo editing app designed for photographers and creative artists. It uses AI-based enhancement tools to instantly improve image brightness, clarity, and color balance. Users can apply advanced layer blending modes to merge images with precision. The app includes artistic filters inspired by digital and film-based styles. A smart skin retouch tool helps remove imperfections naturally. Background remover and cutout tools allow clean edits in seconds. The app supports batch editing to process multiple files efficiently. Users can export high-resolution images without losing quality. The interface is designed to be clean, intuitive, and beginner-friendly. Whether editing portraits or landscapes, PhotoBlend delivers stunning results every time.",
@@ -12,7 +12,7 @@
   },
   {
     "id": 2,
-    "image": "https://i.pinimg.com/736x/5c/f9/fc/5cf9fc8767a29a2bd90a4010593ff983.jpg",
+    "image": "https://i.pinimg.com/736x/d2/fb/d7/d2fbd7a624d0deeefa52d78726c943fe.jpg",
     "title": "MindFocus: Meditation & Productivity",
     "companyName": "ZenWave Labs",
     "description": "MindFocus helps users maintain mental balance while boosting productivity through mindful routines. It offers guided meditation sessions tailored for stress relief and deep focus. Focus timers encourage distraction-free work using proven productivity techniques. Built-in breathing exercises promote relaxation during short breaks. Users can track daily mood and emotional patterns with simple reflections. The app includes calming background sounds to improve concentration. AI insights suggest meditation based on user stress levels. A clean, minimal interface provides a distraction-free environment. Daily reminders help users stay mindful and consistent. MindFocus is designed to reduce burnout and improve work-life balance naturally.",
@@ -23,7 +23,7 @@
   },
   {
     "id": 3,
-    "image": "https://i.pinimg.com/736x/9a/90/96/9a9096985e50804ddbcc3274514b36ee.jpg",
+    "image": "https://i.pinimg.com/736x/43/52/cd/4352cd4337d41d5f56024f70d28add4c.jpg",
     "title": "FitMate: Fitness Tracker & Planner",
     "companyName": "HealthHive",
     "description": "FitMate is a complete fitness companion designed to help users stay active and track progress easily. It monitors steps, calories, and workout sessions in real-time. Users receive AI-generated workout plans based on personal goals. Meal tracking allows users to monitor their nutrition effortlessly. Motivational reminders help maintain consistency throughout the week. Progress charts display daily and monthly fitness achievements clearly. Users can sync the app with smartwatches and wearables for more accuracy. The app also includes guided workout videos with voice tips. Leaderboard challenges encourage friendly competition among friends. FitMate makes fitness enjoyable, data-driven, and goal-focused.",
@@ -34,7 +34,7 @@
   },
   {
     "id": 4,
-    "image": "https://i.pinimg.com/736x/b6/16/f2/b616f225bfcfa5c5a2146a7b9c5c4a1c.jpg",
+    "image": "https://i.pinimg.com/736x/59/21/23/59212399fabbe7fe0da3af702b811452.jpg",
     "title": "Travelio: Trip Planner & Guide",
     "companyName": "ExploreX",
     "description": "Travelio makes travel planning easy by combining destination discovery, hotel booking, and local guide features into one app. Users can explore trending vacation spots based on interests like beaches, adventure, or culture. The built-in itinerary planner allows organizing flights, hotels, and activities in one place. Hidden travel gems and local tips make trips feel more authentic. Offline maps help travelers navigate without internet worries. Expense tracking helps users stay within budget while traveling. Weather indicators show the best time to visit a location. Travel reminders ensure no booking or activity is missed during the trip. Users can bookmark destinations to plan future adventures. Travelio turns every journey into a well-organized and memorable experience.",
@@ -45,7 +45,7 @@
   },
   {
     "id": 5,
-    "image": "https://i.pinimg.com/736x/44/04/65/440465d95ed21f37ed8842b3fad1371c.jpg",
+    "image": "https://i.pinimg.com/1200x/70/1d/5c/701d5ce263a622a29daae6014d1c20f2.jpg",
     "title": "NoteCraft: Smart Notes Organizer",
     "companyName": "SmartDesk Co.",
     "description": "NoteCraft is designed for creative minds who love organizing ideas efficiently. Users can create structured notes with formatting tools similar to a text editor. Tag and folder organization makes it easy to locate notes quickly. Voice-to-text support helps capture ideas instantly without typing. Users can pin favorite notes for faster access on the homepage. Cloud sync ensures notes are always backed up and accessible from any device. Collaboration mode allows teams to share and edit notes together. AI suggestions categorize notes to keep everything tidy automatically. Pre-made templates help with meeting notes, study layouts, and personal lists. NoteCraft transforms note-taking into a clean and productive experience.",
@@ -56,7 +56,7 @@
   },
   {
     "id": 6,
-    "image": "https://i.pinimg.com/736x/16/a6/94/16a6947b68723369e88e65c27f6779fb.jpg",
+    "image": "https://i.pinimg.com/1200x/87/4a/33/874a334b9ea92a9bc8264deddd253446.jpg",
     "title": "Learnify: Interactive Learning App",
     "companyName": "EduPro Systems",
     "description": "Learnify delivers an interactive learning experience with engaging bite-sized content. It covers topics ranging from academic subjects to creative skills. Each lesson is designed to be short and easy to understand. Gamified quizzes help users test their knowledge in a fun way. Users earn badges and achievements to stay motivated. Progress tracking shows how far learners have come in each course. Offline mode allows learning anytime without internet connection. AI recommends lessons based on user interests and learning pace. Certification is awarded after completing structured learning paths. Learnify makes education simple, enjoyable, and goal-oriented.",
@@ -67,7 +67,7 @@
   },
   {
     "id": 7,
-    "image": "https://i.pinimg.com/1200x/7d/06/ec/7d06ec6e330263c96fd9185d6ad897d3.jpg",
+    "image": "https://i.pinimg.com/736x/ab/73/fd/ab73fd1287cf23cd13bcf88e23fe45f5.jpg",
     "title": "CookBook+: Recipe & Meal Planner",
     "companyName": "HomeChef Studio",
     "description": "CookBook+ is a complete cooking assistant designed for home chefs and food lovers. It offers thousands of chef-approved recipes from different cuisines. Users can filter recipes based on ingredients, diet, or cooking time. AI meal planning helps create weekly menu suggestions effortlessly. Grocery list generator automatically organizes ingredients for shopping. Calorie and nutrition breakdown helps users stay health-conscious. Step-by-step cooking mode guides users through recipes with visuals. Users can save their favorite meals to a personal recipe collection. Meal reminders help maintain consistent eating habits. CookBook+ turns everyday cooking into a smart, enjoyable experience.",
@@ -78,7 +78,7 @@
   },
   {
     "id": 8,
-    "image": "https://i.pinimg.com/736x/ee/e3/b3/eee3b303347ac49c9f577e8a6c9ee615.jpg",
+    "image": "https://i.pinimg.com/1200x/f4/47/de/f447dedec80e43b63f163c5de1596d10.jpg",
     "title": "GameBoost: Performance Optimizer",
     "companyName": "NextPlay Studios",
     "description": "GameBoost improves mobile gaming performance by optimizing system resources in one tap. It automatically clears background apps to free up RAM. Users can activate game mode for smoother frame rates. Network optimization reduces lag during online gameplay. Performance monitoring shows real-time CPU and GPU usage. Users can schedule automatic boosts before launching games. Battery saver mode ensures longer playtime without overheating. The app also provides system cleanup tools to remove junk files. FPS analyzer helps players track performance improvements easily. GameBoost gives gamers a smoother, faster, and lag-free experience.",
@@ -89,7 +89,7 @@
   },
   {
     "id": 9,
-    "image": "https://i.pinimg.com/736x/1e/3f/f8/1e3ff86e03dda920f3c1676591a4feb7.jpg",
+    "image": "https://i.pinimg.com/736x/21/fc/68/21fc68f8509a49a0896fcfd73a602627.jpg",
     "title": "ShopEase: Smart Shopping App",
     "companyName": "ClickCart Ltd.",
     "description": "ShopEase is a smart shopping companion designed to help users save money effortlessly. It compares prices across multiple online stores in real-time. Wishlist sync keeps products organized across all devices. Cashback and discount alerts notify users of the best deals. Barcode scanner allows instant product checks while shopping offline. Personalized shopping suggestions make browsing more convenient. Budget tracker helps users control spending during seasonal sales. Users can create multiple shopping lists for different occasions. Delivery tracking keeps all orders organized in one place. ShopEase makes shopping smarter, faster, and more rewarding.",
@@ -100,7 +100,7 @@
   },
   {
     "id": 10,
-    "image": "https://i.pinimg.com/1200x/70/54/4e/70544ed5150760c3c8d8b6c5344972e5.jpg",
+    "image": "https://i.pinimg.com/736x/52/71/d4/5271d468395887217b91c2f35c711a80.jpg",
     "title": "Budgetly: Expense & Savings Tracker",
     "companyName": "FinEdge Apps",
     "description": "Budgetly is a smart financial tracker that helps users manage expenses and grow savings effortlessly. It categorizes spending automatically through AI analysis. Users can set custom budgets for food, travel, or bills. Daily summaries show where money is being spent most. Savings goal tracker motivates users to reach financial targets. Expense charts provide a clear breakdown of monthly spending habits. Reminder alerts prevent missed bill payments. The app encourages mindful spending through financial insights. Users can export reports for personal or business use. Budgetly turns financial planning into a simple and stress-free habit.",
@@ -111,7 +111,7 @@
   },
   {
     "id": 11,
-    "image": "https://i.pinimg.com/736x/52/e2/bf/52e2bf6330b8dcdb9e2370928fa94607.jpg",
+    "image": "https://i.pinimg.com/1200x/3d/b3/77/3db37766467ded09ee41686cf5e60e8e.jpg",
     "title": "PetPal: Pet Care & Tracker",
     "companyName": "HappyTail Labs",
     "description": "PetPal is an all-in-one pet care assistant designed for pet owners. It helps track vet appointments, vaccination schedules, and feeding routines. Users can set reminders for grooming, walks, and medication. The app includes health tips written by pet care professionals. A location tracker helps monitor pets during outdoor activities. Users can connect with nearby vets and pet service providers. Pet profile feature stores medical and behavioral information safely. Community section allows users to share tips and photos with other pet lovers. Emergency contact mode provides quick access to nearby clinics. PetPal ensures pets receive organized and loving care every day.",
@@ -133,7 +133,7 @@
   },
   {
     "id": 13,
-    "image": "https://i.pinimg.com/736x/e5/cf/9c/e5cf9c69e865f2843fe7cda01d80051d.jpg",
+    "image": "https://i.pinimg.com/1200x/7a/9d/4f/7a9d4f51ef7c844451421b8b3660a16f.jpg",
     "title": "DailyJournal: Mood & Habit Tracker",
     "companyName": "MindFlow Apps",
     "description": "DailyJournal is a minimalist mood and habit tracking app designed to improve emotional awareness. Users can log their thoughts and feelings in a secure personal journal. Mood check-ins help identify emotional patterns over time. Habit tracker encourages daily progress with gentle reminders. The interface is clean and distraction-free for peaceful journaling. Users can set personal themes to customize their writing space. Inspiring prompts guide users when they don’t know what to write. Progress insights display mental wellness trends clearly. All entries are safely encrypted for privacy. DailyJournal turns self-reflection into a simple daily ritual.",
@@ -144,7 +144,7 @@
   },
   {
     "id": 14,
-    "image": "https://i.pinimg.com/736x/5c/f9/fc/5cf9fc8767a29a2bd90a4010593ff983.jpg",
+    "image": "https://i.pinimg.com/1200x/80/57/af/8057af513bbc7a2ff6cda7854faafc6e.jpg",
     "title": "StreamBox: Movies & Series",
     "companyName": "CineVerse",
     "description": "StreamBox offers an all-in-one entertainment experience with high-quality streaming for movies and series. Adaptive streaming ensures smooth playback even on slow networks. Users can download content for offline viewing anytime. Smart recommendations suggest shows based on watch history. Watchlist feature helps users save content for later viewing. Parental control mode ensures safe content access for families. Multi-device sync allows users to continue watching from any screen. Built-in subtitles and dubbing options enhance viewing comfort. StreamBox provides a cinematic experience right on mobile devices. It is designed for users who want seamless and enjoyable streaming every day.",
@@ -155,7 +155,7 @@
   },
   {
     "id": 15,
-    "image": "https://i.pinimg.com/736x/16/a6/94/16a6947b68723369e88e65c27f6779fb.jpg",
+    "image": "https://i.pinimg.com/1200x/6a/35/43/6a3543d184d82ae1d7a2f7fb391d5175.jpg",
     "title": "MusicVibe: Streaming & Playlist",
     "companyName": "SoundPulse",
     "description": "MusicVibe is a music streaming platform that helps users discover new artists and enjoy high-quality audio. Personalized playlists adapt to the user's listening mood. Users can create and organize unlimited playlists effortlessly. Offline listening mode allows music playback without internet. Trending charts showcase the latest hits from around the world. The app includes a built-in audio enhancer for a better sound experience. Lyrics mode lets users sing along in real-time. Social sharing features allow users to share music moments with friends. MusicVibe delivers a smooth and engaging music journey for every listener.",
@@ -166,7 +166,7 @@
   },
   {
     "id": 16,
-    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "image": "https://i.pinimg.com/1200x/4e/32/af/4e32af607f96ae5e3af8f620175afd31.jpg",
     "title": "Weatherly: Live Weather & Alerts",
     "companyName": "SkyWatch Co.",
     "description": "Weatherly is a real-time weather tracking app that provides accurate forecasts with instant alerts. Users can view hourly and weekly weather breakdowns with detailed insights. Storm and rain notifications help users plan ahead safely. Radar maps show live cloud and wind movement for precise tracking. Air quality and UV index indicators support health awareness. The interface is clean, modern, and easy to navigate. Users can set multiple locations to monitor different cities. Home screen widgets provide quick weather updates at a glance. Weatherly ensures users stay informed and prepared for any weather change.",
@@ -174,5 +174,401 @@
     "reviews": 4100,
     "ratingAvg": 5,
     "downloads": "4.9M"
+  },
+  {
+    "id": 17,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "FitTrack: Health & Fitness",
+    "companyName": "Wellness Corp",
+    "description": "FitTrack helps users monitor fitness goals, track workouts, and analyze progress with intuitive charts and notifications.",
+    "size": "42 MB",
+    "reviews": 3200,
+    "ratingAvg": 4.8,
+    "downloads": "3.2M"
+  },
+  {
+    "id": 18,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "BudgetBuddy: Expense Tracker",
+    "companyName": "FinTech Labs",
+    "description": "BudgetBuddy lets users manage personal finances, track expenses, set budgets, and visualize spending habits in real time.",
+    "size": "38 MB",
+    "reviews": 2800,
+    "ratingAvg": 4.7,
+    "downloads": "2.8M"
+  },
+  {
+    "id": 19,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "TravelMate: Trip Planner",
+    "companyName": "Adventure Inc.",
+    "description": "TravelMate helps plan trips, find attractions, book hotels, and track itineraries with interactive maps and tips.",
+    "size": "55 MB",
+    "reviews": 4100,
+    "ratingAvg": 4.9,
+    "downloads": "4.1M"
+  },
+  {
+    "id": 20,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "RecipeBox: Cooking Made Easy",
+    "companyName": "CulinaryTech",
+    "description": "RecipeBox provides thousands of recipes, step-by-step cooking guides, shopping lists, and meal planning features.",
+    "size": "48 MB",
+    "reviews": 2900,
+    "ratingAvg": 4.6,
+    "downloads": "2.9M"
+  },
+  {
+    "id": 21,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "MindSpace: Meditation & Relaxation",
+    "companyName": "Zen Labs",
+    "description": "MindSpace offers guided meditation sessions, sleep sounds, breathing exercises, and daily mindfulness reminders.",
+    "size": "35 MB",
+    "reviews": 2700,
+    "ratingAvg": 4.7,
+    "downloads": "2.7M"
+  },
+  {
+    "id": 22,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "NewsFlash: Real-Time Updates",
+    "companyName": "Global Media",
+    "description": "NewsFlash delivers breaking news, personalized feeds, and trending stories with notifications and offline reading options.",
+    "size": "60 MB",
+    "reviews": 3500,
+    "ratingAvg": 4.8,
+    "downloads": "3.5M"
+  },
+  {
+    "id": 23,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "Learnify: Language Learning",
+    "companyName": "EduTech Co.",
+    "description": "Learnify provides interactive lessons, quizzes, and real-world conversation practice for multiple languages.",
+    "size": "50 MB",
+    "reviews": 3100,
+    "ratingAvg": 4.9,
+    "downloads": "3.1M"
+  },
+  {
+    "id": 24,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "PhotoWizard: Edit & Enhance",
+    "companyName": "Creative Labs",
+    "description": "PhotoWizard allows users to edit photos, add filters, create collages, and share on social media directly.",
+    "size": "45 MB",
+    "reviews": 2600,
+    "ratingAvg": 4.5,
+    "downloads": "2.6M"
+  },
+  {
+    "id": 25,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "ShopEase: Online Shopping",
+    "companyName": "Ecom World",
+    "description": "ShopEase provides seamless online shopping with personalized recommendations, secure checkout, and order tracking.",
+    "size": "52 MB",
+    "reviews": 4000,
+    "ratingAvg": 4.9,
+    "downloads": "4M"
+  },
+  {
+    "id": 26,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "TaskMaster: Productivity & Tasks",
+    "companyName": "OrganizeIt",
+    "description": "TaskMaster helps manage tasks, create schedules, set reminders, and improve productivity for individuals and teams.",
+    "size": "40 MB",
+    "reviews": 2900,
+    "ratingAvg": 4.7,
+    "downloads": "2.9M"
+  },
+  {
+    "id": 27,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "FitFood: Nutrition Tracker",
+    "companyName": "HealthTech",
+    "description": "FitFood tracks calories, macros, and meals. Provides diet plans, grocery lists, and health insights for better nutrition.",
+    "size": "38 MB",
+    "reviews": 2700,
+    "ratingAvg": 4.6,
+    "downloads": "2.7M"
+  },
+  {
+    "id": 28,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "GameHub: Play & Discover",
+    "companyName": "FunGames Ltd.",
+    "description": "GameHub allows users to explore games, compete with friends, track achievements, and get personalized recommendations.",
+    "size": "70 MB",
+    "reviews": 4500,
+    "ratingAvg": 4.9,
+    "downloads": "4.5M"
+  },
+  {
+    "id": 29,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "NewsNow: Trending Headlines",
+    "companyName": "MediaWorks",
+    "description": "NewsNow delivers latest news, trending stories, and video updates, with personalized feeds and notifications.",
+    "size": "55 MB",
+    "reviews": 3200,
+    "ratingAvg": 4.7,
+    "downloads": "3.2M"
+  },
+  {
+    "id": 30,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "SleepWell: Relax & Rest",
+    "companyName": "ZenSleep",
+    "description": "SleepWell provides sleep tracking, relaxing sounds, bedtime reminders, and guided meditation to improve rest quality.",
+    "size": "36 MB",
+    "reviews": 2500,
+    "ratingAvg": 4.6,
+    "downloads": "2.5M"
+  },
+  {
+    "id": 31,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "CryptoTrack: Market Updates",
+    "companyName": "FinTech Labs",
+    "description": "CryptoTrack delivers real-time cryptocurrency prices, market news, portfolio tracking, and alerts for investment decisions.",
+    "size": "44 MB",
+    "reviews": 3100,
+    "ratingAvg": 4.8,
+    "downloads": "3.1M"
+  },
+  {
+    "id": 32,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "PhotoSnap: Quick Editor",
+    "companyName": "Creative Labs",
+    "description": "PhotoSnap allows instant photo editing, filters, and collage creation with easy social media sharing options.",
+    "size": "42 MB",
+    "reviews": 2800,
+    "ratingAvg": 4.7,
+    "downloads": "2.8M"
+  },
+  {
+    "id": 33,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "TravelGuide: Explore Cities",
+    "companyName": "Wanderlust Inc.",
+    "description": "TravelGuide helps users discover new cities, landmarks, local restaurants, and hidden spots with interactive maps and tips.",
+    "size": "50 MB",
+    "reviews": 3400,
+    "ratingAvg": 4.8,
+    "downloads": "3.4M"
+  },
+  {
+    "id": 34,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "ShopSmart: Deals & Discounts",
+    "companyName": "Ecom World",
+    "description": "ShopSmart finds the best deals, coupons, and discounts across top online stores, helping users save money effortlessly.",
+    "size": "45 MB",
+    "reviews": 2900,
+    "ratingAvg": 4.7,
+    "downloads": "2.9M"
+  },
+  {
+    "id": 35,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "DailyQuotes: Motivation",
+    "companyName": "InspireHub",
+    "description": "DailyQuotes delivers motivational quotes, positive affirmations, and reminders to start each day with inspiration.",
+    "size": "25 MB",
+    "reviews": 2200,
+    "ratingAvg": 4.6,
+    "downloads": "2.2M"
+  },
+  {
+    "id": 36,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "WorkoutPal: Fitness Companion",
+    "companyName": "HealthTech",
+    "description": "WorkoutPal guides users through exercise routines, tracks progress, and suggests personalized workouts for strength and cardio.",
+    "size": "48 MB",
+    "reviews": 3000,
+    "ratingAvg": 4.8,
+    "downloads": "3M"
+  },
+  {
+    "id": 37,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "NoteMaster: Productivity Notes",
+    "companyName": "OrganizeIt",
+    "description": "NoteMaster allows users to create, organize, and share notes, checklists, and reminders with cloud sync support.",
+    "size": "38 MB",
+    "reviews": 2800,
+    "ratingAvg": 4.7,
+    "downloads": "2.8M"
+  },
+  {
+    "id": 38,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "WeatherPro: Forecast & Alerts",
+    "companyName": "SkyWatch Co.",
+    "description": "WeatherPro provides accurate weather forecasts, severe weather alerts, radar maps, and detailed analytics for multiple locations.",
+    "size": "52 MB",
+    "reviews": 3600,
+    "ratingAvg": 4.9,
+    "downloads": "3.6M"
+  },
+  {
+    "id": 39,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "MusicVibe: Stream & Discover",
+    "companyName": "TuneTech",
+    "description": "MusicVibe lets users stream millions of songs, create playlists, and discover trending music from around the world.",
+    "size": "60 MB",
+    "reviews": 4000,
+    "ratingAvg": 4.9,
+    "downloads": "4M"
+  },
+  {
+    "id": 40,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "RecipeMaster: Cooking & Recipes",
+    "companyName": "CulinaryTech",
+    "description": "RecipeMaster offers thousands of recipes, meal planning, grocery lists, and step-by-step cooking guidance.",
+    "size": "47 MB",
+    "reviews": 3100,
+    "ratingAvg": 4.8,
+    "downloads": "3.1M"
+  },
+  {
+    "id": 41,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "LearnMate: Courses & Tutorials",
+    "companyName": "EduTech Co.",
+    "description": "LearnMate provides online courses, tutorials, and quizzes across various subjects to enhance learning and skills.",
+    "size": "55 MB",
+    "reviews": 3500,
+    "ratingAvg": 4.9,
+    "downloads": "3.5M"
+  },
+  {
+    "id": 42,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "PhotoMagic: Edit & Collage",
+    "companyName": "Creative Labs",
+    "description": "PhotoMagic allows users to edit photos, add filters, create collages, and share creations on social media easily.",
+    "size": "43 MB",
+    "reviews": 2700,
+    "ratingAvg": 4.7,
+    "downloads": "2.7M"
+  },
+  {
+    "id": 43,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "CryptoWatch: Market Tracker",
+    "companyName": "FinTech Labs",
+    "description": "CryptoWatch provides real-time cryptocurrency tracking, portfolio management, and alerts for price changes.",
+    "size": "50 MB",
+    "reviews": 3300,
+    "ratingAvg": 4.8,
+    "downloads": "3.3M"
+  },
+  {
+    "id": 44,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "MindCalm: Relax & Meditate",
+    "companyName": "Zen Labs",
+    "description": "MindCalm offers guided meditation, breathing exercises, and sleep aids to reduce stress and improve focus.",
+    "size": "36 MB",
+    "reviews": 2600,
+    "ratingAvg": 4.6,
+    "downloads": "2.6M"
+  },
+  {
+    "id": 45,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "TaskFlow: Organizer & Planner",
+    "companyName": "OrganizeIt",
+    "description": "TaskFlow helps manage tasks, deadlines, and projects efficiently with reminders, notes, and progress tracking.",
+    "size": "40 MB",
+    "reviews": 2900,
+    "ratingAvg": 4.7,
+    "downloads": "2.9M"
+  },
+  {
+    "id": 46,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "FitJourney: Health Tracker",
+    "companyName": "Wellness Corp",
+    "description": "FitJourney monitors workouts, daily activity, calories, and sleep patterns to keep users healthy and motivated.",
+    "size": "42 MB",
+    "reviews": 3100,
+    "ratingAvg": 4.8,
+    "downloads": "3.1M"
+  },
+  {
+    "id": 47,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "NewsPulse: Latest Updates",
+    "companyName": "Global Media",
+    "description": "NewsPulse delivers breaking news, trending topics, and local updates with personalized notifications.",
+    "size": "54 MB",
+    "reviews": 3400,
+    "ratingAvg": 4.9,
+    "downloads": "3.4M"
+  },
+  {
+    "id": 48,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "EduLearn: Skill Development",
+    "companyName": "EduTech Co.",
+    "description": "EduLearn provides interactive lessons, quizzes, and real-world projects to help users learn new skills effectively.",
+    "size": "50 MB",
+    "reviews": 3200,
+    "ratingAvg": 4.8,
+    "downloads": "3.2M"
+  },
+  {
+    "id": 49,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "GameZone: Play & Compete",
+    "companyName": "FunGames Ltd.",
+    "description": "GameZone offers a wide range of games, tournaments, and achievements for players to compete and have fun.",
+    "size": "70 MB",
+    "reviews": 4500,
+    "ratingAvg": 4.9,
+    "downloads": "4.5M"
+  },
+  {
+    "id": 50,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "PhotoEdit: Creative Studio",
+    "companyName": "Creative Labs",
+    "description": "PhotoEdit lets users enhance photos, add filters, create collages, and share creations seamlessly on social media.",
+    "size": "48 MB",
+    "reviews": 2900,
+    "ratingAvg": 4.7,
+    "downloads": "2.9M"
+  },
+  {
+    "id": 51,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "FitPlanner: Workout Scheduler",
+    "companyName": "Wellness Corp",
+    "description": "FitPlanner helps users create personalized workout plans, track progress, and stay motivated with reminders and stats.",
+    "size": "46 MB",
+    "reviews": 3100,
+    "ratingAvg": 4.8,
+    "downloads": "3.1M"
+  },
+  {
+    "id": 52,
+    "image": "https://i.pinimg.com/736x/24/c8/4b/24c84b053881aa0e77d83a13b2a1a76c.jpg",
+    "title": "TravelBuddy: Trip Organizer",
+    "companyName": "Adventure Inc.",
+    "description": "TravelBuddy helps plan trips, track itineraries, find attractions, and book hotels with interactive maps and tips.",
+    "size": "53 MB",
+    "reviews": 3400,
+    "ratingAvg": 4.9,
+    "downloads": "3.4M"
   }
 ]

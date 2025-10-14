@@ -13,7 +13,8 @@ const Navbar = () => {
 
   return (
     <div className="w-full bg-white shadow-sm py-3">
-      <div className="max-w-[1600px] mx-auto w-full flex items-center justify-between px-4 md:px-8 lg:px-12">
+
+      <div className="navbar max-w-[1600px] mx-auto px-4 md:px-8 lg:px-12">
         
         
         <div className="navbar-start flex items-center gap-4">
@@ -71,7 +72,7 @@ const Navbar = () => {
           <NavLink to="/" className="flex items-center gap-2">
             <img src={logo} alt="Hero Logo" className="w-8 h-8 sm:w-10 sm:h-10" />
             <span className="text-xl sm:text-2xl font-bold bg-gradient-to-r from-[#632EE3] to-[#9F62F2] bg-clip-text text-transparent">
-              HERO.IO
+              PURPLE
             </span>
           </NavLink>
         </div>
@@ -84,7 +85,7 @@ const Navbar = () => {
           </ul>
         </div>
 
-        <div className="">
+        <div className="navbar-end">
           <a
             href="https://github.com/itstumpa"
             target="_blank"

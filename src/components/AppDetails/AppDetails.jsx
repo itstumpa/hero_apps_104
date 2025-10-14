@@ -7,6 +7,7 @@ import Download from "../../assets/icon-downloads.png";
 import { toast, ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
+
 import {
   BarChart,
   Bar,
@@ -17,10 +18,14 @@ import {
   ResponsiveContainer,
 } from "recharts";
 import LoadingSpinner from "../../components/LoadingSpinner/LoadingSpinner.jsx";
+import NotFoundError from "../../Pages/NotFoundError.jsx";
 
 const AppDetails = () => {
   const { id } = useParams();
   const [app, setApp] = useState(null);
+  const [loading, setLoading] = useState(true);
+
+
   const [isInstalled, setIsInstalled] = useState(false);
 
   useEffect(() => {
@@ -29,8 +34,10 @@ const AppDetails = () => {
         const response = await axios.get("/Datafetch.json");
         const foundApp = response.data.find((a) => a.id.toString() === id);
         setApp(foundApp);
+        setLoading(false)
       } catch (error) {
         console.error("Error fetching app details:", error);
+        setLoading(false)
       }
     };
     fetchApp();
@@ -42,9 +49,11 @@ const AppDetails = () => {
       setIsInstalled(true);
     }
   }, [app]);
-
+if (loading) {
+  return <LoadingSpinner/>
+}
   if (!app) {
-    return <LoadingSpinner />;
+    return <NotFoundError />;
   }
 
   const ratingAvg = app.ratingAvg || 0;
