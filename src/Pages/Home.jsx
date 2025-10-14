@@ -13,27 +13,55 @@ const Home = () => {
   const visibleCount = 8;
   const navigate = useNavigate();
 
-  useEffect(() => {
-    const fetchApps = async () => {
-      try {
-        const response = await axios.get("/Datafetch.json");
-        setApps(response.data);
-      } catch (error) {
-        console.error("Error fetching app data:", error);
-      } finally {
-        setTimeout(() => setLoading(false), 200);
-      }
-    };
-    fetchApps();
-  }, []);
+  // useEffect(() => {
+  //   const fetchApps = async () => {
+  //     try {
+  //       const response = await axios.get("/Datafetch.json");
+  //       setApps(response.data);
+  //     } catch (error) {
+  //       console.error("Error fetching app data:", error);
+  //     } finally {
+  //       setTimeout(() => setLoading(false), 200);
+  //     }
+  //   };
+  //   fetchApps();
+  // }, []);
 
-  const handleSeeMore = () => {
-    navigate("/apps");
+  useEffect(() => {
+  let showLoader = false;
+  const timer = setTimeout(() => {
+    showLoader = true;
+    setLoading(true);
+  }, 100); // show loader only if fetch > 100ms
+
+  const fetchApps = async () => {
+    try {
+      const response = await axios.get("/Datafetch.json");
+      setApps(response.data);
+    } catch (error) {
+      console.error(error);
+    } finally {
+      clearTimeout(timer);
+      setLoading(false); // ensure data shows immediately
+    }
   };
 
+  fetchApps();
+
+  return () => clearTimeout(timer);
+}, []);
+
+
+  
   if (loading) {
-    return <LoadingSpinner />;
-  }
+      return <LoadingSpinner />;
+    }
+
+    
+    const handleSeeMore = () => {
+      navigate("/apps");
+    };
+
 
   return (
     <>
